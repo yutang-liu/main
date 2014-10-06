@@ -1,0 +1,87 @@
+一、	網站標題
+(1)	格式：<title>網站標題</title>
+(2)	字數：約32個中文字(64字元)
+(3)	範例：
+1.	<title>iprefer 奇禾</title>
+2.	<title>奇禾 iprefer</title>
+3.	<title>奇禾互動有限公司</title>
+4.	<title>奇禾 iprefer 數位整合行銷</title>
+5.	<title>創意設計</title>
+6.	<title>廣告設計</title>
+7.	<title>數位整合行銷</title>
+8.	<title>網路整合行銷</title>
+9.	<title>創意設計數位廣告行銷</title>
+(4)	同義字、關聯字使用
+(5)	口語化使用
+
+二、	簡短說明
+(1)	格式：<meta name="description" content="簡短說明…" />
+(2)	字數：約60個中文字(120字元)
+(3)	網頁內容概述
+(4)	網頁內容全文或擷取段落內容
+(5)	僅放關鍵字
+(6)	內容儘量附含關鍵字
+
+三、	網址名稱
+(1)	儘量簡短
+(2)	關鍵字相關
+(3)	儘量避免使用子域名
+(4)	儘量避免附加參數值
+
+四、	層及架構
+(1)	依資料歸類目錄
+(2)	使用麵包屑導覽(階層連結)
+(3)	使用<ul><li>標籤架構
+
+五、	內容優化
+(1)	儘量避免以圖片替代文字
+(2)	使用圖片須附加說明參數「alt」或「title」
+(3)	重點標記，
+如：關鍵字使用標籤<bold>；標題使用標籤<h>；文章使用段落標籤<p>
+	
+六、	錯誤頁面導向
+(1)	降低離站率
+(2)	避免到項首頁
+(3)	到向頁面內容具吸引力或導引連結
+
+七、	Google Sitemap 建立
+(1)	格式：XML格式
+(2)	結構：
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://blog.iprefer.com.tw</loc>
+<lastmod>2014-08-11</lastmod>
+<changefreq>always</changefreq> (hourly. daily. weekly.monthly. yearly. never)
+<priority>1.0</priority> (1.0~0.0 高~低)
+</url>
+</urlset>
+(3)	詳細資料
+https://support.google.com/webmasters/answer/183668?hl=zh-Hant#183668 
+
+八、	Robots 建立
+(1)	格式：TXT格式
+(2)	結構：
+User-agent: *
+Disallow: /Files/
+Allow: /Files/*.xls$
+Sitemap: http://blog.iprefer.com.tw
+(3)	置於根目錄 
+(4)	詳細資料：https://support.google.com/webmasters/answer/6062596?hl=zh-Hant&ref_topic=6061961
+
+九、	提升外來連結
+(1)	利用社群網站 (facebook)
+(2)	關鍵字廣告 (網站剛成立)
+
+十、	結構化資料
+(1)	格式：「微資料」、「微格式」、「RDFa」
+https://support.google.com/webmasters/answer/2722261?hl=zh-Hant#2722261 
+(2)	schema.org
+https://support.google.com/webmasters/answer/1211158
+(3)	動態JS填補資料無法抓取，如：.html()
+(4)	麵包屑範例
+https://support.google.com/webmasters/answer/185417 	
+
+(5)	結構化資料測試工具
+http://www.google.com/webmasters/tools/richsnippets 
+(6)	結構化資料標記協助工具
+https://www.google.com/webmasters/markup-helper/ 
